@@ -1,0 +1,38 @@
+{
+  "name": "weather-service",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Jaqea <jaqea.iii@gmail.com> (https://github.com/Jaqea)",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babelbuild": "babel src --out-dir dist",
+    "start": "nodemon --exec babel-node src/app.js"
+  },
+  "dependencies": {
+    "ali-oss": "^6.17.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^10.1.1",
+    "mongoose": "^6.2.2",
+    "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.3",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/runtime": "^7.17.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa-jwt": "^4.0.3",
+    "prettier": "^2.5.1"
+  }
+}
